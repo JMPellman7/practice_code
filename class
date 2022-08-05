@@ -1,0 +1,19 @@
+class Cars:
+
+	def __init__(self, name, city, mileage, price):
+		self.name = name
+		self.city = city
+		self.mileage = mileage 
+		self.price = price 
+		
+	def over_30k_miles(self):
+		if self.mileage >= 30000:
+			return True
+		else: 
+			return False 
+	
+	def over_20k_dollars(self):
+		if self.price >= 20000:
+			return True 
+		else:
+			return False 
